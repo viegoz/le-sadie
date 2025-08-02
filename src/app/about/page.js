@@ -33,7 +33,7 @@ const page = () => {
                     <div className="w-1/2">
                         <p className="text-lg leading-relaxed text-justify">
                             Nestled in the heart of Bandung, Le Sadie Bake is more than just a cake shop.
-                            it's a place where beautiful moments are baked with heart. Kami percaya setiap
+                            it&rsquo;s a place where beautiful moments are baked with heart. Kami percaya setiap
                             perayaan pantas dapat kue yang bukan hanya cantik secara visual, tapi juga punya rasa yang ngena di hati.
                             <br />
                             <br></br>
@@ -48,8 +48,8 @@ const page = () => {
                             <br />
                             <br></br>
                             <br></br>
-                            Whether it's a quiet dinner with your closest friends or a milestone worth remembering,
-                            we're here to sweeten your story, one slice at a time.
+                            Whether it&rsquo;s a quiet dinner with your closest friends or a milestone worth remembering,
+                            	we&rsquo;re here to sweeten your story, one slice at a time.
                         </p>
                     </div>
                 </div>
