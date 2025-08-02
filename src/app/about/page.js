@@ -18,7 +18,7 @@ const page = () => {
                     The Heart Behind<br />Le Sadie Bake
                 </h1>
 
-                <img
+                <Image
                     src="/images/about/hero.jpg"
                     alt="Tentang Le Sadie"
                     className="w-[900px] h-auto shadow-lg"
@@ -44,8 +44,8 @@ const page = () => {
                             <br />
                             <br></br>
                             <br></br>
-                            Whether it’s a quiet dinner with your closest friends or a milestone worth remembering,
-                            we’re here to sweeten your story, one slice at a time.
+                            Whether it's a quiet dinner with your closest friends or a milestone worth remembering,
+                            we're here to sweeten your story, one slice at a time.
                         </p>
                     </div>
                 </div>
