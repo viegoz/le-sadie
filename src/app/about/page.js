@@ -1,6 +1,8 @@
 import React from "react";
 import { Navbar, Button, CardProduct, Footer } from "@/components";
 
+import Image from "next/image";
+
 const page = () => {
     return (
         <div className="aboutpage min-h-screen">
@@ -21,7 +23,9 @@ const page = () => {
                 <Image
                     src="/images/about/hero.jpg"
                     alt="Tentang Le Sadie"
-                    className="w-[900px] h-auto shadow-lg"
+                    width={900}
+                    height={600}
+                    className="shadow-lg"
                 />
 
                 {/* Bagian kiri dan kanan */}
