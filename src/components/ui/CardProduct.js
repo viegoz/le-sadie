@@ -1,17 +1,22 @@
 import Image from "next/image";
 
-const CardProduct = ({ title, description, product, price }) => {
+const CardProduct = ({ title, description, product, price, showRating = true }) => {
 	return (
 		<div className="flex flex-col items-center">
-			<div className="flex gap-3">
-				<Image
-					alt="Rating"
-					src="/images/homepage/rating.svg"
-					width={40}
-					height={50}
-				/>
+			{showRating ? (
+				<div className="flex gap-3 items-center">
+					<Image
+						alt="Rating"
+						src="/images/homepage/rating.svg"
+						width={40}
+						height={50}
+					/>
+					<h1 className="font-playfair text-5xl font-semibold">{title}</h1>
+				</div>
+			) : (
 				<h1 className="font-playfair text-5xl font-semibold">{title}</h1>
-			</div>
+			)}
+
 			<div>
 				<Image
 					alt="product"

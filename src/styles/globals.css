@@ -22,3 +22,21 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+
+.aboutpage {
+	background-image: url(/images/about/aboutBg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.productpage {
+	background-image: url(/images/product/productBg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.reviewpage {
+	background-image: url(/images/reviewpage/reviewBg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
