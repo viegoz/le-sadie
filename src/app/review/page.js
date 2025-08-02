@@ -16,7 +16,7 @@ const page = () => {
                     </p>
                 </div>
                 <h1 className="font-playfair text-7xl text-shadow-md text-center font-bold pb-30 text-black">
-                    Catch this couple's <br /> take on Le Sadie Bake
+                    Catch this couple&rsquo;s <br /> take on Le Sadie Bake
                 </h1>
 
                 <div className="w-full flex justify-center pb-30">
@@ -39,7 +39,7 @@ const page = () => {
                         We believe every cake has its own story mulai dari intimate birthday dinner
                         bareng sahabat sampai last-minute surprise buat someone special. Di sini,
                         kamu bisa baca how our cakes have been part of their sweet moments.
-                        It's not just a review, it's a love letter from one heart to another
+                        it&rsquo;s not just a review, it&rsquo;s a love letter from one heart to another
                     </p>
                 </div>
                 <div className="flex flex-col items-center py-20 gap-10">
