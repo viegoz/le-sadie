@@ -15,7 +15,9 @@ const Home = () => {
 					</p>
 				</div>
 				<div>
-					<h1 className="font-playfair text-9xl text-shadow-md">MERRY BERRY</h1>
+					<h1 className="font-playfair font-bold text-9xl text-shadow-md">
+						MERRY BERRY
+					</h1>
 				</div>
 				<div className="w-3/6 text-end text-lg leading-relaxed">
 					<p className="tracking-wide">
