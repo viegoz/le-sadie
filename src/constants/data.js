@@ -84,8 +84,33 @@ export const product = [
 	{
 		id: 6,
 		title: "Noir Petite",
-		description: "Bold and indulgent, this mini tart features rich dark chocolate ganache",
+		description:
+			"Bold and indulgent, this mini tart features rich dark chocolate ganache",
 		product: "/images/product/product6.png",
 		price: 41,
+	},
+];
+
+export const review = [
+	{
+		id: 1,
+		name: "Rani",
+		comment:
+			"Sudah 2x order kue disini, rasanya enak Marmer cake nya wangi & padet bgt. Berry fromage tartnya juga enak rasanya seger",
+		profilePic: "/images/reviewpage/user1.png",
+	},
+	{
+		id: 2,
+		name: "Namira",
+		comment:
+			"Enak dan seger banget, manisnya gak bikin eneg juga. Must try varian lain ini mah fix!",
+		profilePic: "/images/reviewpage/user2.png",
+	},
+	{
+		id: 3,
+		name: "Billy",
+		comment:
+			"Cake nya The Best , rasanya enak poll Pelayanan sangat ramah. Packaging juga juga Cakep Terimakasih Le.sadie.bake sukses selalu usahanya, Aamiin semoga berkah",
+		profilePic: "/images/reviewpage/user3.png",
 	},
 ];

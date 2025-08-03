@@ -5,21 +5,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
 	return (
-		<div className="homepage min-h-max">
+		<div className="bg-[url('/images/homepage/homepageBg.jpg')] bg-no-repeat md:bg-contain min-w-fit md:min-h-max">
 			<Navbar />
-			<div className="text-white flex flex-col items-end gap-8 pt-20 px-35">
+			<div className="items-center text-white flex flex-col md:items-end gap-8 pt-20 md:px-35">
 				<div>
-					<p className="text-4xl">
+					<p className="text-3xl md:text-4xl">
 						<span className="font-[900]">Artful</span> Cakes,{" "}
 						<span className="font-[900]">Timeless</span> Bonds
 					</p>
 				</div>
 				<div>
-					<h1 className="font-playfair font-bold text-9xl text-shadow-md">
+					<h1 className="font-playfair font-bold text-7xl md:text-9xl text-shadow-md">
 						MERRY BERRY
 					</h1>
 				</div>
-				<div className="w-3/6 text-end text-lg leading-relaxed">
+				<div className="text-center w-3/4 md:text-end text-lg leading-relaxed">
 					<p className="tracking-wide">
 						Di tengah cahaya malam dan suara gelas beradu, kamu merayakan a new
 						chapter with your girls confident, radiant, unstoppable. Merry Berry
@@ -38,8 +38,8 @@ const Home = () => {
 				</a>
 			</div>
 
-			<div className="flex flex-col items-center gap-7 py-10">
-				<p className="w-1/4 text-lg/10 text-center">
+			<div className="flex flex-col items-center gap-7 py-30 md:py-10">
+				<p className="w-2/3 md:w-1/4 text-lg/10 text-center">
 					Nestled in Bandung, Le Sadie Bake crafts artful cakes for heartfelt
 					celebrations. Founded by Nurul Farisa, every slice blends beauty and
 					flavor made to sweeten your most meaningful moments.
@@ -51,17 +51,17 @@ const Home = () => {
 							icon={faArrowCircleRight}
 							width={50}
 							height={50}
-							className="absolute translate-x-12/5"
+							className="absolute translate-x-14/3"
 						/>
 					</button>
 				</div>
 			</div>
 
-			<div className="flex flex-col gap-15 py-5">
-				<h1 className="font-playfair text-7xl font-bold text-center text-shadow-lg/30">
+			<div className="flex flex-col gap-15 py-5 md:py-20">
+				<h1 className="font-playfair text-5xl md:text-7xl font-bold text-center text-shadow-lg/30">
 					Our Best Seller
 				</h1>
-				<div className="flex justify-center">
+				<div className="flex flex-col md:flex-row md:justify-center gap-20">
 					{bestSeller.map((item) => (
 						<div key={item.id}>
 							<CardProduct
@@ -76,7 +76,7 @@ const Home = () => {
 			</div>
 
 			<div className="flex flex-col items-center py-20 gap-10">
-				<h1 className="font-playfair font-bold text-5xl">
+				<h1 className="font-playfair text-center font-bold text-3xl md:text-5xl">
 					Find the one that speaks your flavour
 				</h1>
 				<a

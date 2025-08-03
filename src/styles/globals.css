@@ -17,11 +17,11 @@ body {
 	font-family: var(--font-poppins), sans-serif;
 }
 
-.homepage {
+/* .homepage {
 	background-image: url(/images/homepage/homepageBg.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-}
+} */
 
 .aboutpage {
 	background-image: url(/images/about/aboutBg.png);

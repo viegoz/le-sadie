@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
 	return (
-		<div className="bg-[#161616] flex justify-between items-center text-white p-6 py-8 px-35">
-			<div>
+		<div className="bg-[#161616] flex justify-between items-center text-white p-6 py-8 px-15 md:px-35">
+			<div className="text-sm w-1/2 md:w-full md:text-md">
 				<span>
 					Jl. Purwakarta No.84, Antapani Kidul, Kec. Antapani, Kota Bandung,
 					Jawa Barat 40291

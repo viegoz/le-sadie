@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-const CardProduct = ({ title, description, product, price, showRating = true }) => {
+const CardProduct = ({
+	title,
+	description,
+	product,
+	price,
+	showRating = true,
+}) => {
 	return (
 		<div className="flex flex-col items-center">
 			{showRating ? (
@@ -11,7 +17,9 @@ const CardProduct = ({ title, description, product, price, showRating = true }) 
 						width={40}
 						height={50}
 					/>
-					<h1 className="font-playfair text-5xl font-semibold">{title}</h1>
+					<h1 className="font-playfair text-2xl md:text-5xl font-semibold">
+						{title}
+					</h1>
 				</div>
 			) : (
 				<h1 className="font-playfair text-5xl font-semibold">{title}</h1>
@@ -22,7 +30,7 @@ const CardProduct = ({ title, description, product, price, showRating = true }) 
 					alt="product"
 					src={product}
 					width={300}
-					height={10}
+					height={300}
 					className="duration-200 ease-in-out hover:scale-115"
 				/>
 			</div>
